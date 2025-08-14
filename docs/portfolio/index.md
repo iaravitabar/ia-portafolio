@@ -1,4 +1,4 @@
----
+ [---
 title: "Índice del Portafolio"
 date: 12-08-2025
 ---
@@ -10,7 +10,7 @@ Entradas del portafolio
 **UT1 - Machine Learning Clásico**
 
 -Práctica 1: EDA del Titanic 🚢 [Titanic.md](Titanic.md)
--Práctica 2: Feature Engineering simple + Modelo base ⚙️ 
+-Práctica 2: Feature Engineering simple + Modelo base ⚙️ [FeatureE.md](FeatureE.md)
 
 
 
