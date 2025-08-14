@@ -8,7 +8,7 @@ date: 12-08-2025
 Bienvenido a las entradas del portafolio. Usá la plantilla para crear nuevas páginas numeradas
 (`01-...`, `02-...`).
 
--Práctica 1: EDA del Titanic [plantilla.md](plantilla.md)
+-Práctica 1: EDA del Titanic [Titanic.md](Titanic.md)
 
 
 - Plantilla: [plantilla.md](plantilla.md)
