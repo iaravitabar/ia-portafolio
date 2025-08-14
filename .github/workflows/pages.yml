@@ -24,8 +24,7 @@ jobs:
           python-version: '3.x'
       - run: pip install -r requirements.txt
       - run: mkdocs build --strict
-      - name: Configure Pages
-        uses: actions/configure-pages@v5
+      - run: ls -alh site  # Debug step to verify the site directory
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
@@ -38,6 +37,9 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
