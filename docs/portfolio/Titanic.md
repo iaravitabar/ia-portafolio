@@ -14,12 +14,22 @@ El dataset del Titanic contiene ciertos datos de los pasajeros a bordo del barco
 **Inverstigar** sobre la estructura y significado de las variables del dataset
 **Visualizar las relaciones** entre las variables importantes (sexo, edad, clase) y la supervivencia.
 
-## Actividades (con tiempos estimados)
+## Actividades
 - Investigación y comprensión del dataset, las variables y el problema
 - Configuración de Colab y conexión a Drive
 - Carga de Datos
 - Visualización de datos clave en patrones de supervivencia
 - Documentación
+
+  ### Tabla de actividades con tiempos
+
+| Actividad           | Tiempo | Resultado esperado               |
+|---------------------|:------:|----------------------------------|
+| Investigación       |  30m   | entender la práctica             |
+| Configuración       |  15m   | Notebook listo t drive           |
+| Carga de datos      |  5m    | API kaggle, 'train' y 'test'     |
+| Discución datos     |  20m   | gráficos y conclusiones en equipo|
+
 
 ## Desarrollo
 El proceso se llevó a cabo en un notebook de Google Colab.
@@ -85,85 +95,32 @@ El proceso se llevó a cabo en un notebook de Google Colab.
 ## Evidencias
 El análisis visual a continuación dejó una representación clarísima sobre los patrones y factores de supervivencia.
 
-![Panel de Visualizaciones del EDA del Titanic] 
-
-## Reflexión
-- Qué aprendiste, qué mejorarías, próximos pasos
-
-## Referencias
-- Fuentes consultadas con enlaces relativos cuando corresponda
-
-
----
-
-## Guía de formato y ejemplos (MkDocs Material)
-
-Usá estos ejemplos para enriquecer tus entradas. Todos funcionan con la configuración del template.
-
-### Admoniciones
-
-!!! note "Nota"
-    Este es un bloque informativo.
-
-!!! tip "Sugerencia"
-    Considerá alternativas y justifica decisiones.
-
-!!! warning "Atención"
-    Riesgos, limitaciones o supuestos relevantes.
-
-### Detalles colapsables
-
-???+ info "Ver desarrollo paso a paso"
-    - Paso 1: preparar datos
-    - Paso 2: entrenar modelo
-    - Paso 3: evaluar métricas
-
-### Código con resaltado y líneas numeradas
-
-```python hl_lines="2 6" linenums="1"
-def train(
-    data_path: str,
-    epochs: int = 10,
-    learning_rate: float = 1e-3,
-) -> None:
-    print("Entrenando...")
-    # TODO: implementar
-```
-
-### Listas de tareas (checklist)
-
-- [ ] Preparar datos
-- [x] Explorar dataset
-- [ ] Entrenar baseline
-
-### Tabla de actividades con tiempos
-
-| Actividad           | Tiempo | Resultado esperado               |
-|---------------------|:------:|----------------------------------|
-| Revisión bibliográfica |  45m  | Lista de fuentes priorizadas     |
-| Implementación      |  90m   | Script ejecutable/documentado    |
-| Evaluación          |  60m   | Métricas y análisis de errores   |
-
-### Imágenes con glightbox y atributos
-
-Imagen directa (abre en lightbox):
-
-![Diagrama del flujo](../assets/placeholder.png){ width="420" }
+![Panel de Visualizaciones del EDA del Titanic] (../assets/Titanic1.png){ width="700" }
 
 Click para ampliar (lightbox):
 
-[![Vista previa](../assets/placeholder.png){ width="280" }](../assets/placeholder.png)
+[![Vista previa](../assets/Titanic1.png){ width="280" }](../assets/Titanic1.png)
 
-### Enlaces internos y relativos
 
-Consultá también: [Acerca de mí](../acerca.md) y [Recursos](../recursos.md).
+![Panel de Visualizaciones del EDA del Titanic] (../assets/Titanic2.png){ width="700" }
 
-### Notas al pie y citas
+**Hallazgos**
 
-Texto con una afirmación que requiere aclaración[^nota].
+1.  **Sexo:** Las mujeres tuvieron una tasa de supervivencia bastante mayor que los hombres
+2.  **Clase Socioeconómica (Pclass):** Los pasajeros de primera clase tuvieron la mayor tasa de supervivencia, mientras que los de tercera clase tuvieron la menor
+3.  **Edad:** Los niños pequeños tenían una mayor probabilidad de sobrevivir
+4.  **Correlaciones:** La matriz de correlación confirma la fuerte relación negativa entre `Pclass` y `Survived` (a menor número de clase, mayor supervivencia) y una relación positiva con `Fare`
 
-[^nota]: Esta es una nota al pie con detalles adicionales y referencias.
+## Reflexión
 
-### Emojis y énfasis
+Este análisis fue de mucha ayuda para empezar a familiarizarme con el dataset y tambi´n entender un poco más de dónde salen las hipótesis a partir de un evento histórico
 
-Resultados destacados :rocket: :sparkles: y conceptos `clave`.
+
+
+## Referencias
+- [Página de la competencia del Titanic en Kaggle](https://www.kaggle.com/competitions/titanic)
+
+
+
+
+
