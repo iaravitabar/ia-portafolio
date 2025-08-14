@@ -9,8 +9,8 @@ Entradas del portafolio
 
 **UT1 - Machine Learning Clásico**
 
--Práctica 1: EDA del Titanic 🚢 [Titanic.md](Titanic.md)
--Práctica 2: Feature Engineering simple + Modelo base ⚙️ [FeatureE.md](FeatureE.md)
+- Práctica 1: EDA del Titanic 🚢 [Titanic.md](Titanic.md)
+- Práctica 2: Feature Engineering simple + Modelo base ⚙️ [FeatureE.md](FeatureE.md)
 
 
 
