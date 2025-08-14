@@ -5,10 +5,12 @@ date: 12-08-2025
 
 # Portafolio
 
-Bienvenido a las entradas del portafolio. Usá la plantilla para crear nuevas páginas numeradas
-(`01-...`, `02-...`).
+Entradas del portafolio 
 
--Práctica 1: EDA del Titanic [Titanic.md](Titanic.md)
+**UT1 - Machine Learning Clásico**
+
+-Práctica 1: EDA del Titanic 🚢 [Titanic.md](Titanic.md)
+-Práctica 2: Feature Engineering simple + Modelo base ⚙️ 
 
 
 
