@@ -7,10 +7,10 @@ date: 12-08-2025
 
 Como primera actividad, se nos presentó la idea de investigar sobre un datasaet muy famoso en la cienda de datos. 
 
-## Contexto
+## Contexto 🤔💭
 El dataset del Titanic contiene ciertos datos de los pasajeros a bordo del barco, dividido en un conjunto de "entrenamiento" y otro de prueba. El objetivo del ejercicio de Kaggle es usar esta información para construir un modelo de Machine Learning que pueda predecir con precisión quiénes sobrevivieron al naufragio en el conjunto de prueba. Todo esto como un desafío de clasificación para familiarizarnos en el ciclo de vida de un proyecto de cienca de datos.
 
-## Objetivos
+## Objetivos📍
 **Inverstigar** sobre la estructura y significado de las variables del dataset
 **Visualizar las relaciones** entre las variables importantes (sexo, edad, clase) y la supervivencia.
 
@@ -104,7 +104,11 @@ Click para ampliar (lightbox):
 
 ![Panel de Visualizaciones del EDA del Titanic] (../assets/Titanic2.png){ width="700" }
 
-**Hallazgos**
+Click para ampliar (lightbox):
+
+[![Vista previa](../assets/Titanic2.png){ width="280" }](../assets/Titanic2.png)
+
+**Hallazgos** 🤓
 
 1.  **Sexo:** Las mujeres tuvieron una tasa de supervivencia bastante mayor que los hombres
 2.  **Clase Socioeconómica (Pclass):** Los pasajeros de primera clase tuvieron la mayor tasa de supervivencia, mientras que los de tercera clase tuvieron la menor
@@ -114,6 +118,7 @@ Click para ampliar (lightbox):
 ## Reflexión
 
 Este análisis fue de mucha ayuda para empezar a familiarizarme con el dataset y tambi´n entender un poco más de dónde salen las hipótesis a partir de un evento histórico
+
 
 
 
