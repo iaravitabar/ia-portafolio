@@ -24,22 +24,20 @@ jobs:
           python-version: '3.x'
       - run: pip install -r requirements.txt
       - run: mkdocs build --strict
-      - run: ls -alh site  # Debug step to verify the site directory
-      - name: Upload artifact
+      - run: ls -alh site  # debug opcional
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site   # carpeta generada por mkdocs build
+          path: site
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      # ojo: referencia al NUEVO id
+      url: ${{ steps.pages_deploy.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-      - name: Deploy to GitHub Pages
-        id: deployment
+        id: pages_deploy     # id único
         uses: actions/deploy-pages@v4
