@@ -14,11 +14,14 @@ El objetivo de esta práctica es tomar un conjunto de datos (el del Titanic), y 
 ### Actividad 0: Investigación Teórica
 Antes de seguir con la implementación, me gustaría dejar registrada la actividad 0 como huella teórica. Me sirvió para entender componentes clave que se usarán. Las preguntas guía fueron:
 
-!!! tip "Investigación de Scikit-learn"
-    - **`LogisticRegression`**:
-        - ¿Qué tipo de problema resuelve?
-        - ¿Qué parámetros importantes tiene?
-        - ¿Cuándo usar `solver='liblinear'` vs otros solvers?
+??? tip "Investigación de Scikit-learn"
+    ###`LogisticRegression`**:
+    - ** ¿Qué tipo de problema resuelve?
+    - ** ¿Qué parámetros importantes tiene?
+    - ** ¿Cuándo usar `solver='liblinear'` vs otros solvers?
+    Resuelve problemas de clasificación.  Estima prob de que una instancia sea de una clase específica. Mapea la salida en prob entre 1 y 0.
+    -'C': parámetro de regularzación 
+
     - **`DummyClassifier`**:
         - ¿Para qué sirve exactamente?
         - ¿Qué estrategias de baseline ofrece?
